@@ -3,11 +3,15 @@ import { Container } from "./styles";
 import profileImage from "../../assets/profile-image.jpg"
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
+import bootstrapicon from "../../assets/bootstrap-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/expressjs.svg";
+import expressjs from "../../assets/expressjs.svg";
 import mongodb from "../../assets/mongodb.svg";
+import webpack from "../../assets/webpack-icon.svg";
+import python from "../../assets/python-icon.svg";
+import redux from "../../assets/redux-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -43,7 +47,7 @@ export function About(){
 
           <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-            <img src={mongodb} alt="Vue" />
+            <img src={mongodb} alt="mongodb" />
           </ScrollAnimation>
           </div>
 
@@ -64,6 +68,7 @@ export function About(){
             <img src={cssIcon} alt="Css" />
           </ScrollAnimation>
           </div>
+
           <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
             <img src={nodeIcon} alt="Node" />
@@ -72,7 +77,31 @@ export function About(){
 
           <div className="hability">
           <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-            <img src={expressjs} alt="Typescript" />
+            <img src={expressjs} alt="Express" />
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <img src={bootstrapicon} alt="bootstraoicon" />
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <img src={webpack} alt="webpack" />
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <img src={redux} alt="redux" />
+          </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <img src={python} alt="python" />
           </ScrollAnimation>
           </div>
 
@@ -81,7 +110,7 @@ export function About(){
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://drive.google.com/file/d/19r6f5XX1Lf_7Ex0nUn3ofZnzOQrHI1c4/view?usp=sharing" alt="profile picture" />
+          <img src={profileImage} alt="profile picture" />
         </ScrollAnimation>
       </div>
     </Container>
